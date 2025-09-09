@@ -132,9 +132,15 @@
     <ClInclude Include="exercise2.h" />
     <ClCompile Include="Filters.cpp" />
     <ClCompile Include="VHS.cpp" />
+    <ClInclude Include="exercise7.h" />
+    <ClInclude Include="exercise8.h" />
+    <ClInclude Include="exercise9.h" />
     <ClInclude Include="solution4.h" />
     <ClInclude Include="solution5.h" />
     <ClInclude Include="solution6.h" />
+    <ClInclude Include="solution7.h" />
+    <ClInclude Include="solution8.h" />
+    <ClInclude Include="solution9.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exercise1.h" />

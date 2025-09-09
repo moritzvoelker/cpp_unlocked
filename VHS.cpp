@@ -5,7 +5,9 @@
 // #include "exercise5.h"
 // #include "exercise6.h"
 // #include "exercise7.h"
-#include "solution6.h"
+// #include "exercise8.h"
+// #include "exercise9.h"
+#include "solution9.h"
 
 int main()
 {
@@ -30,4 +32,10 @@ int main()
 #if defined(EXERCISE7) || defined(SOLUTION7)
 	exercise7();
 #endif // EXERCISE7
+#if defined(EXERCISE8) || defined(SOLUTION8)
+	exercise8();
+#endif // EXERCISE8
+#if defined(EXERCISE9) || defined(SOLUTION9)
+	exercise9();
+#endif // EXERCISE9
 }

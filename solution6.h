@@ -59,6 +59,24 @@ void exercise6() {
 		std::cin >> given_password;
 	}
 
+	// TODO: Beschränke die Anzahl der Versuche auf 3
+	std::cout << "Bitte Nutername und Passwort erneut eingeben." << std::endl;
+	std::cout << "Username: ";
+	std::cin >> given_username;
+	std::cout << "Password: ";
+	std::cin >> given_password;
+
+	int trys = 1;
+	while (given_username != username && given_password != password && trys < 3) {
+		std::cout << "Falsche Kombination!" << std::endl;
+		std::cout << "Bitte Nutername und Passwort eingeben." << std::endl;
+		std::cout << "Username: ";
+		std::cin >> given_username;
+		std::cout << "Password: ";
+		std::cin >> given_password;
+		trys = trys + 1;
+	}
+
 	// BONUSAUFGABE: Nimm den Rechner der letzten BONUSAUFGABE.
 	// Verwandele ihn in eine Schleife und frage den Nutzer solange nach neuen Eingaben, bis er versucht durch 0 zu teilen.
 	int lhs = 0, rhs = 0, result = 0;

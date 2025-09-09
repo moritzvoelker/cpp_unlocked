@@ -27,13 +27,14 @@ void exercise5() {
 	*/
 		std::cout << "Man kann nicht durch 0 teilen" << std::endl;
 	}
-	else if (divisor == 1.0) {
-	/*|		 |
+	else if (divisor == 1.0 || dividend == 0.0) {
+	/*|		 |				|
+	* |		 |				 \ wir können auch mehrere Bedingungen verknüpfen mit einem und && oder einem oder ||
 	* |		  \ Diese Bedingung wird nur überprüft, falls die erste Bedingung false war.
 	*  \ else if leitet eine alternative Bedingung ein. Quasi "Wenn das erste false war und die folgende Bedingung true ist"
 	*	 Ein else if kann immer nur nach einem if oder einem else if und nie alleine stehen.
 	*/
-		std::cout << "Teilen durch 1 ist redundant" << std::endl;
+		std::cout << "Operation ist redundant" << std::endl;
 	}
 	else {
 	/*|	 |
@@ -49,6 +50,8 @@ void exercise5() {
 	// TODO: Frag den Nutzer nach der Uhrzeit.
 	// Wenn es nach 6 Uhr ist, sag "Guten morgen", wenn es nach 11 ist, sag guten Tag, und wenn es nach 22 Uhr ist sag gute Nacht.
 	// Wenn es keine sinnvolle Uhrzeit ist, beschwer dich darüber.
+
+	// FIXME: logische Operatoren erklären
 
 	// BONUSAUFGABE: Frag den Nutzer nach zwei Zahlen und einem von den Rechnzeichen +, -, * und /.
 	// Führe je nach Rechenzeichen die entsprechende Operation durch.

@@ -31,6 +31,8 @@ void exercise6() {
 	// TODO: Frage den Nutzer nach seinem Namen. Grüße ihn solange zurück, bis er "Bye" schreibt. Dann verabschiede dich.
 
 	// TODO: Definiere ein Nutzernamen und ein Passwort. Frage den Nutzer nach beidem, solange, bis die Kombination richtig ist.
+	
+	// TODO: Beschränke die Anzahl der Versuche auf 3
 
 	// BONUSAUFGABE: Nimm den Rechner der letzten BONUSAUFGABE.
 	// Verwandele ihn in eine Schleife und frage den Nutzer solange nach neuen Eingaben, bis er versucht durch 0 zu teilen.
